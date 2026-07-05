@@ -6,7 +6,7 @@ Manifest v2 browser extension that kills most web animations and transitions. Sp
 
 The modern web loves animations and transitions. Why immediately get a visual response after clicking a button when you can instead wait for a slow animation to complete? *"Slick design"* ™ or whatever, as webdevs like to call it. Bonus points for ignoring `prefers-reduced-motion`.
 
-I want UIs to always respond immediately. I don't care about fade-in, easy-in and all the other *fancy* animations and effects. Stop wasting my time. If I click a button I want to immediately (0 seconds) see a result.
+I want UIs to always respond immediately. I don't care about fade-in, ease-in and all the other *fancy* animations and effects. Stop wasting my time. If I click a button I want to immediately (0 seconds) see a result.
 
 ## Target Audience
 
