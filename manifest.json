@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "kill animations",
+    "version": "1.4.0",
+    "permissions": [
+        "webNavigation",
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content.js"],
+            "run_at": "document_start",
+            "all_frames": true,
+            "world": "MAIN"
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "kill-animations@local"
+        }
+    }
+}
